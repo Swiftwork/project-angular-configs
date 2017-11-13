@@ -1,0 +1,27 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.insertFinalNewline": true,
+  "tslint.enable": true,
+  "tslint.configFile": "./.config/tslint.config.js",
+  "tslint.autoFixOnSave": true,
+  "stylelint.enable": true,
+  "scss.validate": false,
+  "postcssSorting.config": "./.config/postcss.sorting.js",
+  "stylefmt.config": "./.config/stylelint.config.js",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "docthis.includeMemberOfOnInterfaceMembers": false,
+  "docthis.includeMemberOfOnClassMembers": false,
+  "html.format.wrapAttributes": "force",
+  "search.exclude": {
+    "**/node_modules": true,
+    "build": true
+  },
+  "editor.formatOnSave": true,
+  "typescriptHero.resolver.importGroups": [
+    "Plains",
+    "Modules",
+    "/module|service/",
+    "Workspace"
+  ]
+}
