@@ -2,6 +2,23 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "chrome",
+      "request": "attach",
+      "name": "Attach to client",
+      "url": "http://localhost:9200*",
+      "webRoot": "${workspaceFolder}/src",
+      "port": 9222,
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack:/*": "${webRoot}/*"
+      }
+    }
+  ]
+
+  /*
+  "version": "0.2.0",
+  "configurations": [
+    {
       "type": "node",
       "request": "launch",
       "name": "Start debug",
@@ -30,4 +47,5 @@
       "cwd": "${workspaceRoot}"
     }
   ]
+  */
 }

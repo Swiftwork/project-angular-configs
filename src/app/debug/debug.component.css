@@ -1,0 +1,45 @@
+:host {
+  position: fixed;
+  display: block;
+  top: 3vr;
+  right: 0;
+  padding: 1vr;
+  z-index: var(--z_debug);
+  background-color: var(--c_light_alpha);
+  transform: translateX(100%);
+  transition: transform var(--t_animation);
+
+  &[aria-expanded=true] {
+    transform: none;
+  }
+
+  form, form > :last-child {
+    margin-bottom: 0;
+  }
+
+  .title, .reload, .c-text-input, .c-checkbox-input, .c-select-input {
+    color: white;
+  }
+
+  ::ng-deep .c-checkbox-input--label::before {
+    color: white;
+  }
+
+  .title {
+    .reload {
+      float: right;
+    }
+  }
+
+  .trigger {
+    position: absolute;
+    top: 1vr;
+    left: 0;
+    padding: 0 1vr;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: var(--c_light_alpha);
+    transform: rotate(-90deg) translate(-100%, -100%);
+    transform-origin: 0 0;
+  }
+}

@@ -1,0 +1,7 @@
+@import '@evry/ng-styles';
+
+/* Fonts */
+@import 'fonts/sl-gothic.css';
+
+/* Print */
+@import 'print.css';

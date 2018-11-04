@@ -1,0 +1,59 @@
+/* REGULAR */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-regular.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* REGULAR ITALIC */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-regularitalic.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-regularitalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* MEDIUM */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-medium.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* MEDIUM ITALIC */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-mediumitalic.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-mediumitalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* BOLD */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-bold.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* BOLD ITALIC */
+@font-face {
+  font-family: 'SL Gothic';
+  src: url('../assets/fonts/slgothictext2-bolditalic.woff2') format('woff2'),
+    url('../assets/fonts/slgothictext2-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}

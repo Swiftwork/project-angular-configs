@@ -1,0 +1,29 @@
+@media print {
+  * {
+    float: none !important;
+    width: auto;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .c-modal {
+    position: absolute;
+    display: block;
+    padding: 0;
+    background: none;
+
+    &--dialog {
+      max-height: none !important;
+      max-width: none !important;
+      overflow: visible;
+    }
+  }
+
+  .c-grid, menu {
+    * {
+      width: auto;
+    }
+  }
+}

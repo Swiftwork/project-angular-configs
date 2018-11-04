@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint-config-standard", "tslint-config-prettier"],
+  "rules": {
+    "arrow-return-shorthand": [true],
+    "comment-format": false,
+    "curly": false,
+    "interface-name": [true, "always-prefix"],
+    "member-ordering": false,
+    "no-empty": false,
+    "ordered-imports": true,
+    "no-switch-case-fall-through": false,
+    "semicolon": [true, "always", "ignore-interfaces"],
+    "space-before-function-paren": [true, "never"],
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "quotemark": [true, "single"]
+  }
+}

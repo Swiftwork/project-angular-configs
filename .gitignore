@@ -1,6 +1,17 @@
-build
-node_modules
-environment.js
-package-lock.json
-yarn.lock
+# VSCODE
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# SYSTEM
+.DS_STORE
+
+# PROJECT
 *.log
+.cache-loader
+dist
+docs
+node_modules
+test_results
