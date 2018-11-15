@@ -10,7 +10,7 @@
 
 # PROJECT
 *.log
-.cache-loader
+.cache
 dist
 docs
 node_modules
