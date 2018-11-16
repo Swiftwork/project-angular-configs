@@ -1,0 +1,12 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  h1 {
+    max-width: var(--d_sm);
+    color: var(--c_color_alpha);
+    text-align: center;
+  }
+}

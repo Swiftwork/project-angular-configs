@@ -12,9 +12,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { NgComponentsModule } from '@evry/ng-components';
-import {
-  NgCoreModule,
-} from '@evry/ng-core';
+import { NgCoreModule } from '@evry/ng-core';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
@@ -56,7 +54,7 @@ export function TranslateLoaderFactory(http: HttpClient) {
     NgCoreModule.forRoot(),
     NgComponentsModule.forRoot(),
 
-    /* FÖRETAGARE */
+    /* Project */
     RouterModule.forRoot(APP_ROUTES),
     DebugModule,
   ],

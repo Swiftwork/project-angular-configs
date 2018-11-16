@@ -9,15 +9,20 @@
   transform: translateX(100%);
   transition: transform var(--t_animation);
 
-  &[aria-expanded=true] {
+  &[aria-expanded='true'] {
     transform: none;
   }
 
-  form, form > :last-child {
+  form,
+  form > :last-child {
     margin-bottom: 0;
   }
 
-  .title, .reload, .c-text-input, .c-checkbox-input, .c-select-input {
+  .title,
+  .reload,
+  .c-text-input,
+  .c-checkbox-input,
+  .c-select-input {
     color: white;
   }
 
