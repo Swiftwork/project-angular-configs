@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppComponent should render markup that match snapshot 1`] = `
+<c-app
+  appState={[Function AppState]}
+  componentResolver={[Function CodegenComponentFactoryResolver]}
+  debugRef={[Function ViewContainerRef_]}
+  modalRef="undefined"
+  router={[Function Router]}
+  subs={[Function Array]}
+  translateService={[Function TranslateService]}
+  version={[Function String]}
+>
+  <h1>
+    welcome
+  </h1><c-debug
+    aria-expanded="false"
+  >
+    <a
+      class="trigger no-print"
+      role="button"
+      tabindex="0"
+    >
+      <i
+        class="icon-expand"
+      />
+       Debug
+  
+    </a>
+    <h4
+      class="title no-print"
+    >
+      Control panel 
+      <a
+        class="icon-reload reload"
+      />
+    </h4>
+    <form
+      class="no-print"
+    >
+      <c-select-input
+        name="lang"
+        placeholder="Choose language"
+      >
+        Languages
+      </c-select-input>
+      <c-text-input
+        name="api"
+      >
+        API
+      </c-text-input>
+      <c-text-input
+        name="scenario"
+      >
+        Scenario
+      </c-text-input>
+      <c-select-input
+        name="customer"
+        placeholder="Choose mock customer"
+      >
+        Users
+      </c-select-input>
+      <c-text-input
+        name="delay"
+      >
+        Delay
+      </c-text-input>
+      <c-checkbox-input
+        name="live"
+      >
+        Live data (requires reload)
+      </c-checkbox-input>
+    </form>
+  </c-debug>
+</c-app>
+`;
