@@ -11,7 +11,7 @@
 # PROJECT
 *.log
 .cache
-dist
+build
 docs
 node_modules
 test_results

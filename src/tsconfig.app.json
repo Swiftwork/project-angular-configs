@@ -2,12 +2,8 @@
   "extends": "../tsconfig.json",
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "../dist/out-tsc",
+    "outDir": "../build/out-tsc",
     "types": []
   },
-  "exclude": [
-    "../node_modules",
-    "../dist",
-    "**/*.spec.ts"
-  ]
+  "exclude": ["../node_modules", "../build", "**/*.spec.ts"]
 }

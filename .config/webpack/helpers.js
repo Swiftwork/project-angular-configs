@@ -4,7 +4,7 @@ const path = require('path');
 module.exports.ROOT_DIR = process.cwd();
 module.exports.CONFIG_DIR = path.resolve(process.cwd(), '.config');
 module.exports.SOURCE_DIR = path.resolve(process.cwd(), 'src');
-module.exports.BUILD_DIR = path.resolve(process.cwd(), 'dist');
+module.exports.BUILD_DIR = path.resolve(process.cwd(), 'build');
 
 /* VARIABLES */
 module.exports.CPUS = require('os').cpus().length;
