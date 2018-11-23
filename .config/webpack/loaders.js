@@ -92,6 +92,7 @@ DevelopmentLoaders = env => [
           happyPackMode: true,
         },
       },
+      'angular-router-loader',
       'angular2-template-loader',
     ],
   },
